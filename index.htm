@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENNIV | Care AURYEDA - Homemade Herbal Hair Growth Oil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="brand-logo">
+                <div class="logo-main">VENNIV</div>
+                <div class="logo-subtitle">Care <span class="logo-accent">AURYEDA</span></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="whatsapp-btn-nav">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </button>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#benefits"><i class="fas fa-check-circle"></i> Benefits</a></li>
+            <li><a href="#ingredients"><i class="fas fa-leaf"></i> Ingredients</a></li>
+            <li><a href="#how-to-use"><i class="fas fa-question-circle"></i> How to Use</a></li>
+            <li><a href="#testimonials"><i class="fas fa-comments"></i> Reviews</a></li>
+            <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="brand-header">
+                            <h1 class="brand-name">VENNIV</h1>
+                            <div class="brand-subtitle">
+                                <span class="care-text">Care</span>
+                                <span class="aurveda-text">AURYEDA</span>
+                            </div>
+                        </div>
+
+                        <h2 class="product-title">Homemade Herbal Hair Growth Oil</h2>
+
+                        <div class="tagline-container">
+                            <div class="tagline-main">
+                                <span class="tagline-item">Strength</span>
+                                <span class="tagline-separator">•</span>
+                                <span class="tagline-item">Growth</span>
+                                <span class="tagline-separator">•</span>
+                                <span class="tagline-item">Nourishment</span>
+                            </div>
+                        </div>
+
+                        <div class="features-grid">
+                            <div class="feature-badge">
+                                <i class="fas fa-leaf"></i>
+                                <span>100% Natural</span>
+                            </div>
+                            <div class="feature-badge">
+                                <i class="fas fa-seedling"></i>
+                                <span>18 Herbs Infused</span>
+                            </div>
+                            <div class="feature-badge">
+                                <i class="fas fa-ban"></i>
+                                <span>No Mineral Oil</span>
+                            </div>
+                            <div class="feature-badge">
+                                <i class="fas fa-flask"></i>
+                                <span>No Chemicals</span>
+                            </div>
+                            <div class="feature-badge">
+                                <i class="fas fa-users"></i>
+                                <span>Suitable for All Hair Types</span>
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <p>A traditional herbal hair oil infused with 18 powerful botanicals to support hair growth,
+                                reduce hair fall, strengthen roots and nourish the scalp. Made using slow-infusion
+                                methods for maximum potency.</p>
+                        </div>
+
+                        <div class="price-section">
+                            <div class="price-tag">
+                                <span class="price-currency">₹</span>
+                                <span class="price-amount">499</span>
+                                <span class="price-discount">30% OFF</span>
+                            </div>
+                            <div class="original-price">
+                                <span class="mrp">M.R.P: ₹699</span>
+                            </div>
+                            <div class="shipping-info">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Free Shipping</span>
+                                <i class="fas fa-shield-alt"></i>
+                                <span>100% Safe</span>
+                                <i class="fas fa-leaf"></i>
+                                <span>Natural Ingredients</span>
+                            </div>
+                        </div>
+
+                        <div class="cta-buttons">
+                            <button class="btn-primary" id="whatsappOrder">
+                                <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                            </button>
+                            <button class="btn-secondary" id="callNow">
+                                <i class="fas fa-phone"></i> Call Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product Visual Section -->
+                    <div class="product-visual">
+                        <!-- 3D Product Viewer -->
+                        <div class="product-viewer-container">
+                            <div class="viewer-header">
+                                <h3>360° Product View</h3>
+                                <div class="view-controls">
+                                    <button class="view-control-btn" id="autoRotate">
+                                        <i class="fas fa-sync-alt"></i> Auto Rotate
+                                    </button>
+                                    <button class="view-control-btn" id="resetView">
+                                        <i class="fas fa-redo"></i> Reset
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-3d-viewer" id="product3dViewer">
+                                <div class="product-model" id="productModel">
+                                    <!-- Front View -->
+                                    <div class="product-view front-view active" data-view="front">
+                                        <div class="view-label">Front View</div>
+                                        <div class="product-image-container">
+                                            <img src="product-front.png" alt="VENNIV Hair Oil - Front View"
+                                                class="product-3d-image">
+                                            <div class="product-overlay">
+                                                <div class="overlay-content">
+                                                    <div class="overlay-badge">NEW</div>
+                                                    <div class="overlay-text">200ml Bottle</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Back View with Details -->
+                                    <div class="product-view back-view" data-view="back">
+                                        <div class="view-label">Back View - Details</div>
+                                        <div class="product-details-overlay">
+                                            <div class="details-content">
+                                                <h4>Product Information</h4>
+                                                <div class="detail-item">
+                                                    <i class="fas fa-weight"></i>
+                                                    <span>Net Quantity: 200ml</span>
+                                                </div>
+                                                <div class="detail-item">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                    <span>Shelf Life: 12 Months</span>
+                                                </div>
+                                                <div class="detail-item">
+                                                    <i class="fas fa-industry"></i>
+                                                    <span>Slow-Infusion Method</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="product-back.png" alt="VENNIV Hair Oil - Back View"
+                                            class="product-3d-image">
+                                    </div>
+
+                                    <!-- Side View -->
+                                    <div class="product-view side-view" data-view="side">
+                                        <div class="view-label">Side View</div>
+                                        <img src="product-side.png" alt="VENNIV Hair Oil - Side View"
+                                            class="product-3d-image">
+                                    </div>
+
+                                    <!-- Top View -->
+                                    <div class="product-view top-view" data-view="top">
+                                        <div class="view-label">Top View - Cap</div>
+                                        <img src="product-top.png" alt="VENNIV Hair Oil - Top View"
+                                            class="product-3d-image">
+                                    </div>
+                                </div>
+
+                                <div class="view-indicator">
+                                    <span class="current-view">Front View</span>
+                                    <div class="view-dots">
+                                        <span class="view-dot active" data-view="front"></span>
+                                        <span class="view-dot" data-view="back"></span>
+                                        <span class="view-dot" data-view="side"></span>
+                                        <span class="view-dot" data-view="top"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rotation-controls">
+                                <div class="rotation-info">
+                                    <i class="fas fa-mouse-pointer"></i>
+                                    <span>Drag to rotate • Scroll to zoom</span>
+                                </div>
+                                <div class="zoom-controls">
+                                    <button class="zoom-btn" id="zoomOut">
+                                        <i class="fas fa-search-minus"></i>
+                                    </button>
+                                    <span class="zoom-level">100%</span>
+                                    <button class="zoom-btn" id="zoomIn">
+                                        <i class="fas fa-search-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Info Panel -->
+                        <div class="quick-info-panel">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Fast Results</h4>
+                                    <p>Visible improvement in 4-6 weeks</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Authentic</h4>
+                                    <p>Traditional Ayurvedic Formula</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Free Shipping</h4>
+                                    <p>Across India • Cash on Delivery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section" id="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Key Benefits</h2>
+                    <p class="section-subtitle">Experience complete hair care with our 18-herb formulation</p>
+                </div>
+
+                <div class="benefits-carousel swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Benefit 1 -->
+                        <div class="swiper-slide benefit-slide">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <h3>Promotes Healthy Hair Growth</h3>
+                                <p>Stimulates hair follicles for faster and thicker hair growth naturally</p>
+                                <div class="benefit-tag">Most Popular</div>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 2 -->
+                        <div class="swiper-slide benefit-slide">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3>Reduces Hair Fall</h3>
+                                <p>Strengthens hair roots to minimize breakage and excessive hair loss</p>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 3 -->
+                        <div class="swiper-slide benefit-slide">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-spa"></i>
+                                </div>
+                                <h3>Nourishes Scalp</h3>
+                                <p>Prevents dryness and maintains optimal scalp health</p>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 4 -->
+                        <div class="swiper-slide benefit-slide">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-wind"></i>
+                                </div>
+                                <h3>Reduces Dandruff</h3>
+                                <p>Natural antifungal properties eliminate dandruff and itching</p>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 5 -->
+                        <div class="swiper-slide benefit-slide">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h3>Enhances Shine & Thickness</h3>
+                                <p>Adds natural shine and improves hair texture and volume</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="benefits-list">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Promotes healthy hair growth</li>
+                        <li><i class="fas fa-check-circle"></i> Reduces hair fall & strengthens roots</li>
+                        <li><i class="fas fa-check-circle"></i> Nourishes scalp and prevents dryness</li>
+                        <li><i class="fas fa-check-circle"></i> Helps reduce dandruff and itching</li>
+                        <li><i class="fas fa-check-circle"></i> Enhances shine and thickness</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ingredients Section -->
+        <section class="ingredients-section" id="ingredients">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">18 Powerful Botanicals</h2>
+                    <p class="section-subtitle">Infused with natural ingredients for complete hair care</p>
+                </div>
+
+                <div class="ingredients-grid">
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Coconut Oil</h4>
+                        <p>Deep conditioning & nourishment</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Sesame Oil</h4>
+                        <p>Promotes hair growth</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Curry Leaves</h4>
+                        <p>Strengthens hair follicles</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Neem</h4>
+                        <p>Antibacterial properties</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Thulasi</h4>
+                        <p>Scalp purification</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Vetiver</h4>
+                        <p>Cooling effect</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Aloe Vera</h4>
+                        <p>Moisturizes scalp</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Brahmi Leaves</h4>
+                        <p>Hair growth stimulation</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Hibiscus Flowers</h4>
+                        <p>Prevents hair loss</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Hibiscus Leaves</h4>
+                        <p>Natural conditioner</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Fenugreek</h4>
+                        <p>Hair strengthening</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Gooseberry (Amla)</h4>
+                        <p>Prevents premature greying</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Henna</h4>
+                        <p>Conditions hair</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Garlic</h4>
+                        <p>Improves blood circulation</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Onion</h4>
+                        <p>Hair regrowth</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Black Pepper</h4>
+                        <p>Stimulates follicles</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Rosemary</h4>
+                        <p>Improves hair thickness</p>
+                    </div>
+
+                    <div class="ingredient-card">
+                        <div class="ingredient-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Bringraj</h4>
+                        <p>The king of herbs for hair</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Use Section -->
+        <section class="usage-section" id="how-to-use">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How to Use for Best Results</h2>
+                    <p class="section-subtitle">Follow these simple steps for maximum benefits</p>
+                </div>
+
+                <div class="usage-container">
+                    <div class="usage-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Apply</h3>
+                                <p>Take 2-3 teaspoons of oil and apply to scalp and hair</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-hand-holding-water"></i>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Massage</h3>
+                                <p>Gently massage for 5 minutes in circular motions</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-hands"></i>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Leave</h3>
+                                <p>Leave for 1-2 hours or overnight for deep conditioning</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Wash</h3>
+                                <p>Wash with mild shampoo. Use 2-3 times per week</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-shower"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="usage-notes">
+                        <div class="note-card caution">
+                            <div class="note-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <h4>Caution</h4>
+                            </div>
+                            <ul>
+                                <li>For external use only</li>
+                                <li>Do a patch test before first use</li>
+                                <li>Avoid contact with eyes</li>
+                            </ul>
+                        </div>
+
+                        <div class="note-card storage">
+                            <div class="note-header">
+                                <i class="fas fa-temperature-low"></i>
+                                <h4>Storage</h4>
+                            </div>
+                            <ul>
+                                <li>Keep in a cool, dry place</li>
+                                <li>Shake well before use</li>
+                                <li>Best before 12 months from packing</li>
+                            </ul>
+                        </div>
+
+                        <div class="note-card packed">
+                            <div class="note-header">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Product Info</h4>
+                            </div>
+                            <div class="packed-info">
+                                <div class="info-row">
+                                    <span class="info-label">Packed on:</span>
+                                    <span class="info-value">See bottle for date</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">M.R.P:</span>
+                                    <span class="info-value">₹699</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Best before:</span>
+                                    <span class="info-value">12 months from packing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Customer Reviews</h2>
+                    <p class="section-subtitle">What our customers say about VENNIV Hair Oil</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"After 2 months of regular use, my hair fall has reduced by 80%. I
+                            can see new baby hairs growing. Truly amazing product!"</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="user-details">
+                                <h4>Priya Sharma</h4>
+                                <span>Verified Buyer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"The dandruff that I had for years is completely gone. My scalp
+                            feels healthy and hair has natural shine now."</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="user-details">
+                                <h4>Rahul Verma</h4>
+                                <span>Verified Buyer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Best herbal oil I've ever used. No chemical smell, pure herbal
+                            fragrance. My hair texture has improved dramatically."</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="user-details">
+                                <h4>Anjali Patel</h4>
+                                <span>Verified Buyer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready for Healthier, Stronger Hair?</h2>
+                    <p>Join 10,000+ satisfied customers who transformed their hair with VENNIV</p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <h3>10,000+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>98%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h3>Free</h3>
+                            <p>Shipping Nationwide</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-recycle"></i>
+                            <h3>100%</h3>
+                            <p>Natural Ingredients</p>
+                        </div>
+                    </div>
+
+                    <div class="cta-actions">
+                        <button class="btn-primary btn-large" id="ctaWhatsApp">
+                            <i class="fab fa-whatsapp"></i> Order Now on WhatsApp
+                        </button>
+                        <button class="btn-secondary btn-large" id="ctaCall">
+                            <i class="fas fa-phone-alt"></i> Call for Consultation
+                        </button>
+                    </div>
+
+                    <div class="guarantee-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Safe • Natural • Authentic Ayurvedic Formula</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Get in touch for orders and queries</p>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp Orders</h4>
+                                <p>+91 98765 43210</p>
+                                <button class="whatsapp-contact-btn">
+                                    <i class="fab fa-whatsapp"></i> Message Now
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>+91 98765 43210</p>
+                                <button class="call-contact-btn">
+                                    <i class="fas fa-phone-alt"></i> Call Now
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>care@venniv.com</p>
+                                <button class="email-contact-btn">
+                                    <i class="fas fa-envelope"></i> Send Email
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Business Hours</h4>
+                                <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+                                <p>Sunday: 10:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-form">
+                        <h3>Quick Order Form</h3>
+                        <form id="orderForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" placeholder="Enter your WhatsApp number" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address">Delivery Address *</label>
+                                <textarea id="address" placeholder="Enter complete delivery address" rows="3"
+                                    required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="quantity">Quantity</label>
+                                <div class="quantity-selector">
+                                    <button type="button" class="qty-btn minus">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <input type="number" id="quantity" value="1" min="1" max="10" readonly>
+                                    <button type="button" class="qty-btn plus">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="quantity-price">
+                                    <span>Total: <strong>₹<span id="totalPrice">499</span></strong></span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-primary btn-submit">
+                                <i class="fab fa-whatsapp"></i> Place Order on WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-text">VENNIV</div>
+                        <div class="logo-subtext">Care AURYEDA</div>
+                    </div>
+                    <p class="footer-tagline">Homemade Herbal Hair Growth Oil</p>
+                    <p class="footer-description">Traditional Ayurvedic formula with 18 herbs for complete hair care</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#ingredients">Ingredients</a></li>
+                        <li><a href="#how-to-use">How to Use</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-info">
+                    <h4>Product Info</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 100% Natural</li>
+                        <li><i class="fas fa-check-circle"></i> 18 Herbs Infused</li>
+                        <li><i class="fas fa-check-circle"></i> No Mineral Oil</li>
+                        <li><i class="fas fa-check-circle"></i> No Chemicals</li>
+                        <li><i class="fas fa-check-circle"></i> Suitable for All Hair Types</li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Herbal Wellness Center, Mumbai</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> care@venniv.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-disclaimer">
+                    <p><i class="fas fa-exclamation-circle"></i> For external use only. Always do a patch test before
+                        first use. Results may vary individually.</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 VENNIV Care AURYEDA. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart"></i> for healthy hair</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
